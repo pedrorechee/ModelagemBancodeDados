@@ -19,6 +19,8 @@
             
 - 5-Normalização
 - 6-Implementar meu modelo Físico
+- 7-Inserir Valores
+- 8- Fazer teste no SGBD
 
 # ⚙ Desenvolvimento 
  ## Etapa 1 e 2
@@ -72,8 +74,8 @@ Modelo Conceitual
    - Nova tabela-Premiação
       id_filme,id_premio
 
-   ## Etapa 6
-   Modelo Físico
+   ## Etapa 6, 7 e 8 
+   Modelo Físico, ETL, TESTES
    - Deixarei o script em SQL aqui mesmo neste repositório com o nome: "Meuprojeto"
 
 
