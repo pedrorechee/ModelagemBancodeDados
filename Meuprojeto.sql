@@ -308,7 +308,7 @@ INSERT INTO Premiacao(F_Cod_Filme, P_Cod_Premio, Ano) VALUES
 
 -- Testes Finais:
 
--- 1) Verificar a Restrição de Integridade Referencial para as tabelas:
+--Verificar a Restrição de Integridade Referencial para as tabelas:
 
 -- a) Participacao
 
@@ -321,16 +321,16 @@ INSERT INTO Premiacao VALUES
 (6, 8, 2022);
 
 
--- 2) Verificar uma Restrição de Domínio qualquer
+--Verificar uma Restrição de Domínio qualquer
 INSERT INTO Premio VALUES
 ('COD123', 'Melhor Roteiro');
 
--- 3) Verificar uma Restrição de Vazio qualquer
+--Verificar uma Restrição de Vazio qualquer
 
 INSERT INTO Ator VALUES
 (101, 'Lazaro Ramos', 'Salvador', NULL, 'M');
 
--- 4) Verificar a Restrição de Chave nas tabelas:
+--Verificar a Restrição de Chave nas tabelas:
 
 -- a) Premio
 
@@ -342,13 +342,18 @@ INSERT INTO Premio VALUES
 INSERT INTO Premiacao VALUES
 (1, 1, 2022);
 
--- 5) Verificar a Restrição de Integridade na tabela Ator
+--Verificar a Restrição de Integridade na tabela Ator
 
 INSERT INTO Ator VALUES
 (NULL, 'Fabio Porchat', 'Rio de Janeiro', 'BRA', 'M');
 
 
+-- Fazer Consultas das tabelas
 
-
-
+Select * from Diretor;
+Select * from Ator;
+Select * from Filme;
+Select * from Premio;
+Select * from Participacao;
+Select * from Premiacao;
 
